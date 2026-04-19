@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 1s
+
+scrape_configs:
+  - job_name: 'remote-target'
+    static_configs:
+      # IP адрес исследуемого хоста
+      - targets: 
+        - '192.168.1.112:9100' # Node Exporter (Система)
+        - '192.168.1.112:9400' # GPU Exporter (Видеокарта)
+      #  - '127.0.0.1:9100'
+
+
