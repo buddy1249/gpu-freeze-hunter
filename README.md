@@ -32,7 +32,7 @@ docker run -d \
   <img src="img/metrics2_load_average.png" alt="Cluster Monitoring" width="800">
   <img src="img/metrics3_uptime.png" alt="Cluster Monitoring" width="800">
   <br>
-  <em>Рис. 1 — Load Average 9 при 4 ядрах — это когда Firefox хочет 260%, ps сходит с ума, а видеокарта просто «ушла в отказ». Система тратит все силы на переключение между задачами.</em>
+  <em>Рис. 1 — Load Average 9 при 4 ядрах — это когда Firefox хочет 260%, а видеокарта просто «ушла в отказ». Система тратит все силы на переключение между задачами.</em>
 </p> 
 
 ## 📊 Анализ и визуализация график Load Average
